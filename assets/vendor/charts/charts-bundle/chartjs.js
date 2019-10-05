@@ -11,17 +11,17 @@
                             data: {
                                 labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                                 datasets: [{
-                                    label: 'Almonds',
+                                    label: 'Predicted Performance',
                                     data: [12, 19, 3, 17, 6, 3, 7],
 
-                                    backgroundColor: "rgba(89, 105, 255,0.5)",
-                                    borderColor: "rgba(89, 105, 255,0.7)",
+                                    backgroundColor: "rgba(88, 75, 66, 0.5)",
+                                    borderColor: "rgba(88, 75, 66, 1)",
                                     borderWidth: 2
                                 }, {
-                                    label: 'Cashew',
+                                    label: 'Actual Performance',
                                     data: [2, 29, 5, 5, 2, 3, 10],
-                                    backgroundColor: "rgba(255, 64, 123,0.5)",
-                                    borderColor: "rgba(255, 64, 123,0.7)",
+                                    backgroundColor: "rgba(247, 119, 84, 0.5)",
+                                    borderColor: "rgba(247, 119, 84, 1)",
                                     borderWidth: 2
                                 }]
 
@@ -69,16 +69,16 @@
                     data: {
                         labels: ["M", "T", "W", "R", "F", "S", "S"],
                         datasets: [{
-                            label: 'Almonds',
+                            label: 'Current Machine Health',
                             data: [12, 19, 3, 17, 28, 24, 7],
-                           backgroundColor: "rgba(89, 105, 255,0.5)",
-                                    borderColor: "rgba(89, 105, 255,0.7)",
+                           backgroundColor: "rgba(88, 75, 66, 0.5)",
+                                    borderColor: "rgba(88, 75, 66, 1)",
                             borderWidth: 2
                         }, {
-                            label: 'Cashew',
+                            label: 'Predicted Machine Health in 2 Weeks',
                             data: [30, 29, 5, 5, 20, 3, 10],
-                           backgroundColor: "rgba(255, 64, 123,0.5)",
-                                    borderColor: "rgba(255, 64, 123,0.7)",
+                           backgroundColor: "rgba(247, 119, 84, 0.5)",
+                                    borderColor: "rgba(247, 119, 84, 1)",
                             borderWidth: 2
                         }]
                     },
@@ -128,13 +128,13 @@
                     data: {
                         labels: ["M", "T", "W", "T", "F", "S", "S"],
                         datasets: [{
-                            label: 'Almonds',
+                            label: 'Current Machine Health',
                            backgroundColor: "rgba(89, 105, 255,0.5)",
                                     borderColor: "rgba(89, 105, 255,0.7)",
                             data: [12, 19, 3, 17, 28, 24, 7],
                             borderWidth: 2
                         }, {
-                            label: 'Cashew',
+                            label: 'Predicted Machine Health in 2 Weeks',
                              backgroundColor: "rgba(255, 64, 123,0.5)",
                                     borderColor: "rgba(255, 64, 123,0.7)",
                             data: [30, 29, 5, 5, 20, 3, 10],
