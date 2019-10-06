@@ -9,19 +9,19 @@
                             type: 'line',
 
                             data: {
-                                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                                 datasets: [{
-                                    label: 'Predicted Performance',
-                                    data: [12, 19, 3, 17, 6, 3, 7],
-
-                                    backgroundColor: "rgba(88, 75, 66, 0.5)",
-                                    borderColor: "rgba(88, 75, 66, 1)",
-                                    borderWidth: 2
-                                }, {
                                     label: 'Actual Performance',
-                                    data: [2, 29, 5, 5, 2, 3, 10],
+                                    data: [2, 4, 8, 9, 12, 14, 16, 17, 18, 20, 22, 23, 25, 27],
                                     backgroundColor: "rgba(247, 119, 84, 0.5)",
                                     borderColor: "rgba(247, 119, 84, 1)",
+                                    borderWidth: 2
+                                }, {
+                                    label: 'Predicted Performance',
+                                    data: [3, 5, 7, 8, 9, 12, 15, 17, 19, 22, 24, 25, 27, 28],
+
+                                    backgroundColor: "rgba(88, 75, 66, 0)",
+                                    borderColor: "rgba(88, 75, 66, 1)",
                                     borderWidth: 2
                                 }]
 
@@ -31,29 +31,10 @@
                                     display: true,
                                     position: 'bottom',
 
-                                    labels: {
-                                        fontColor: '#71748d',
-                                        fontFamily: 'Circular Std Book',
-                                        fontSize: 14,
-                                    }
+                                    
                                 },
 
-                                scales: {
-                                    xAxes: [{
-                                        ticks: {
-                                            fontSize: 14,
-                                            fontFamily: 'Circular Std Book',
-                                            fontColor: '#71748d',
-                                        }
-                                    }],
-                                    yAxes: [{
-                                        ticks: {
-                                            fontSize: 14,
-                                            fontFamily: 'Circular Std Book',
-                                            fontColor: '#71748d',
-                                        }
-                                    }]
-                                }
+                                
                             }
                         
 
@@ -67,18 +48,24 @@
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ["M", "T", "W", "R", "F", "S", "S"],
+                        labels: ["CHI39", "CHI42", "PEO25", "CHI53", "PEO62", "PEO65"],
                         datasets: [{
-                            label: 'Current Machine Health',
-                            data: [12, 19, 3, 17, 28, 24, 7],
-                           backgroundColor: "rgba(88, 75, 66, 0.5)",
+                            label: 'Current',
+                            data: [76, 77, 72, 85, 75, 72],
+                           backgroundColor: "rgba(247, 119, 84, 0.5)",
+                                    borderColor: "rgba(247, 119, 84, 1)",
+                            borderWidth: 2
+                        }, {
+                            label: 'Scheduled',
+                            data: [85, 83, 76, 92, 87, 82],
+                           backgroundColor: "rgba(88, 75, 66, 0)",
                                     borderColor: "rgba(88, 75, 66, 1)",
                             borderWidth: 2
                         }, {
-                            label: 'Predicted Machine Health in 2 Weeks',
-                            data: [30, 29, 5, 5, 20, 3, 10],
-                           backgroundColor: "rgba(247, 119, 84, 0.5)",
-                                    borderColor: "rgba(247, 119, 84, 1)",
+                            label: 'Projected',
+                            data: [100, 100, 100, 100, 100, 100],
+                           backgroundColor: "rgba(247, 119, 84, 0.0)",
+                                    borderColor: "rgba(0, 173, 181, 1)",
                             borderWidth: 2
                         }]
                     },
@@ -92,29 +79,18 @@
                         display: true,
                         position: 'bottom',
 
-                        labels: {
-                            fontColor: '#71748d',
-                            fontFamily: 'Circular Std Book',
-                            fontSize: 14,
-                        }
+                        
                     },
 
                     scales: {
-                        xAxes: [{
-                            ticks: {
-                                fontSize: 14,
-                                fontFamily: 'Circular Std Book',
-                                fontColor: '#71748d',
-                            }
-                        }],
+                        xAxes: [{ stacked: true }],
                         yAxes: [{
-                            ticks: {
-                                fontSize: 14,
-                                fontFamily: 'Circular Std Book',
-                                fontColor: '#71748d',
-                            }
+                                ticks: {
+                                    beginAtZero:true
+                                },
+                                stacked: false
                         }]
-                    }
+                      }
                 }
 
                     
