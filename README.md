@@ -20,11 +20,13 @@ What is presented on this git repository is solely the front end web interface o
 
 ## Machine Learning Model Demo
 
-[![DeepScoop AI Demo - BuiltWorlds Hackathon 2019](http://img.youtube.com/vi/VeZQd6s9tDI/0.jpg)](http://www.youtube.com/watch?v=VeZQd6s9tDI)
+[Watch the demo video here](http://www.youtube.com/watch?v=VeZQd6s9tDI)
 
 ## DeepScoop Dashboard Demo
 
-![DeepScoop Dashboard Demo - BuiltWorlds Hackathon 2019](web_demo.png)
+[![DeepScoop Dashboard Demo - BuiltWorlds Hackathon 2019](web_demo.png)](https://www.youtube.com/watch?v=VeZQd6s9tDI)
+
+[View the demo here](https://www.youtube.com/watch?v=VeZQd6s9tDI)
 
 ## Tech Stack
 
