@@ -19,7 +19,6 @@
                                 }, {
                                     label: 'Predicted Performance',
                                     data: [3, 5, 7, 8, 9, 12, 15, 17, 19, 22, 24, 25, 27, 28],
-
                                     backgroundColor: "rgba(88, 75, 66, 0)",
                                     borderColor: "rgba(88, 75, 66, 1)",
                                     borderWidth: 2
@@ -51,19 +50,19 @@
                         labels: ["CHI39", "CHI42", "PEO25", "CHI53", "PEO62", "PEO65"],
                         datasets: [{
                             label: 'Current',
-                            data: [76, 77, 72, 85, 75, 72],
+                            data: [57374, 49257, 52945, 61053, 58257, 70552],
                            backgroundColor: "rgba(247, 119, 84, 0.5)",
                                     borderColor: "rgba(247, 119, 84, 1)",
                             borderWidth: 2
                         }, {
                             label: 'Scheduled',
-                            data: [85, 83, 76, 92, 87, 82],
+                            data: [75000, 75000, 75000, 75000, 75000, 75000],
                            backgroundColor: "rgba(88, 75, 66, 0)",
                                     borderColor: "rgba(88, 75, 66, 1)",
                             borderWidth: 2
                         }, {
                             label: 'Projected',
-                            data: [100, 100, 100, 100, 100, 100],
+                            data: [90000, 90000, 90000, 90000, 90000, 90000],
                            backgroundColor: "rgba(247, 119, 84, 0.0)",
                                     borderColor: "rgba(0, 173, 181, 1)",
                             borderWidth: 2
