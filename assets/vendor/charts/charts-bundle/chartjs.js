@@ -12,13 +12,13 @@
                                 labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                                 datasets: [{
                                     label: 'Actual Performance',
-                                    data: [2, 4, 8, 9, 12, 14, 16, 17, 18, 20, 22, 23, 25, 27],
+                                    data: [150, 200, 500, 800, 1200, 1400, 1600, 1700, 1800, 2000, 2200, 2300, 2500, 2700],
                                     backgroundColor: "rgba(247, 119, 84, 0.5)",
                                     borderColor: "rgba(247, 119, 84, 1)",
                                     borderWidth: 2
                                 }, {
                                     label: 'Predicted Performance',
-                                    data: [3, 5, 7, 8, 9, 12, 15, 17, 19, 22, 24, 25, 27, 28],
+                                    data: [100, 300, 700, 1000, 1150, 1250, 1350, 1500, 1700, 1900, 2100, 2200, 2300, 2400],
                                     backgroundColor: "rgba(88, 75, 66, 0)",
                                     borderColor: "rgba(88, 75, 66, 1)",
                                     borderWidth: 2
