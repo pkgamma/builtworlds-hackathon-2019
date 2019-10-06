@@ -18,15 +18,11 @@ In order to present the complex data that we collected and analyzed, we created 
 
 What is presented on this git repository is solely the front end web interface of the project, which shows the final result of our hours of ML training, but is only the surface of this entire project - the tip of the iceberg. Since it is not practical to host the finished, trained result of the ML model weights and config files here on GitHub, I have included a video that shows the final result of the model and its image recognition magic at work!
 
-## Machine Learning Model Demo
+###[Machine Learning Model Demo](http://www.youtube.com/watch?v=VeZQd6s9tDI)
 
-[Watch the demo video here](http://www.youtube.com/watch?v=VeZQd6s9tDI)
+###[DeepScoop Dashboard Demo](https://pkgamma.github.io/deepscoop-ml/)
 
-## DeepScoop Dashboard Demo
-
-[![DeepScoop Dashboard Demo - BuiltWorlds Hackathon 2019](web_demo.png)](https://www.youtube.com/watch?v=VeZQd6s9tDI)
-
-[View the demo here](https://www.youtube.com/watch?v=VeZQd6s9tDI)
+[![DeepScoop Dashboard Demo - BuiltWorlds Hackathon 2019](web_demo.png)](https://pkgamma.github.io/deepscoop-ml/)
 
 ## Tech Stack
 
