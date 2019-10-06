@@ -13,8 +13,8 @@
                                 datasets: [{
                                     label: 'Actual Performance',
                                     data: [150, 200, 500, 800, 1200, 1400, 1600, 1700, 1800, 2000, 2200, 2300, 2500, 2700],
-                                    backgroundColor: "rgba(247, 119, 84, 0.5)",
-                                    borderColor: "rgba(247, 119, 84, 1)",
+                                    backgroundColor: "rgba(255, 197, 0, 0.4)",
+                                    borderColor: "rgba(255, 197, 0, 1)",
                                     borderWidth: 2
                                 }, {
                                     label: 'Predicted Performance',
@@ -51,8 +51,8 @@
                         datasets: [{
                             label: 'Current',
                             data: [57374, 49257, 52945, 61053, 58257, 70552],
-                           backgroundColor: "rgba(247, 119, 84, 0.5)",
-                                    borderColor: "rgba(247, 119, 84, 1)",
+                           backgroundColor: "rgba(255, 197, 0, 0.4)",
+                                    borderColor: "rgba(255, 197, 0, 1)",
                             borderWidth: 2
                         }, {
                             label: 'Scheduled',

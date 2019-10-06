@@ -1011,7 +1011,7 @@ Borders
 -------------------------*/
 
 .border-top-primary {
-    border-top-color: #ff8b00 !important;
+    border-top-color: #FFC500 !important;
 }
 
 .border-3 {
@@ -1238,10 +1238,10 @@ Top Header
     padding: 11px 20px;
     font-size: 30px;
     font-weight: 700;
-    color: #ffc60b;
+    color: #FFC500;
 }
 .navbar-brand:hover{
-    color: #ffc60b;
+    color: #FFC500;
 }
 .navbar-right-top {}
 
