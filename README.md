@@ -2,7 +2,7 @@
 
 DeepScoop uses Machine Learning technology to transform surveillance video feeds into informative insights and empower machinery manufactures like Caterpillar with powerful analytics data.
 
-This project was built in 36 hours at the BuiltWorld Hackathon 2019 in Chicago, IL.
+This project was built in 36 hours at the BuiltWorld Hackathon 2019 in Chicago, IL. *We're one of the winners of the hackathon!*
 
 ## About
 
